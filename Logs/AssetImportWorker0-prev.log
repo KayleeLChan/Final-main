@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Editors\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Final-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55684
+Successfully changed project path to: D:/Unity/Final-main
+D:/Unity/Final-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.97 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.98 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path D:/Unity/Editors/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Final-main/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   27.21.14.6677
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/Editors/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editors/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editors/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editors/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Editors/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001187 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.54 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.79 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\Final-main\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\Final-main\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3719 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 172.8 MB.
+
+Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 4158.
+Total: 3.309500 ms (FindLiveObjects: 0.292600 ms CreateObjectMapping: 0.224300 ms MarkObjects: 2.589700 ms  DeleteObjects: 0.201700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Purgatory/Walls/Tool Wall.prefab
+  artifactKey: Guid(a6d40de1a5954904f9687f7ad15f4403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Tool Wall.prefab using Guid(a6d40de1a5954904f9687f7ad15f4403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3f6008b6c811e75e83ac7830e0ff69') in 0.267987 seconds
+  Import took 0.274667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Whole Wall.prefab
+  artifactKey: Guid(c9f70ebe5bcc2ed46812740c32eb4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Whole Wall.prefab using Guid(c9f70ebe5bcc2ed46812740c32eb4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05536d5a473f7977fd0a0d07eb18d184') in 0.026290 seconds
+  Import took 0.041405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679324 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall 2.prefab
+  artifactKey: Guid(92ffe8a2778109146b4cb06dfa01b800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall 2.prefab using Guid(92ffe8a2778109146b4cb06dfa01b800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99075a95ab52c7124a73d3b01eb85488') in 0.025035 seconds
+  Import took 0.040630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall.prefab
+  artifactKey: Guid(2dbc9c060df0dc24f9963e6eb65da6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall.prefab using Guid(2dbc9c060df0dc24f9963e6eb65da6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508aac13790b1e939bc3d4957b8f3456') in 0.016009 seconds
+  Import took 0.031385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall 3.prefab
+  artifactKey: Guid(9f4b3765e97084e4db65d21d7c23c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall 3.prefab using Guid(9f4b3765e97084e4db65d21d7c23c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2825880aae874c5f41130357fbd595') in 0.021637 seconds
+  Import took 0.029725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.130105 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall 2.prefab
+  artifactKey: Guid(92ffe8a2778109146b4cb06dfa01b800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall 2.prefab using Guid(92ffe8a2778109146b4cb06dfa01b800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aab8766bd2d3530cdfc39adbdb0b77') in 0.016000 seconds
+  Import took 0.024521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall.prefab
+  artifactKey: Guid(2dbc9c060df0dc24f9963e6eb65da6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall.prefab using Guid(2dbc9c060df0dc24f9963e6eb65da6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ae690cd32fc795e0eb5e8dda2a0d0f') in 0.011559 seconds
+  Import took 0.019820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall 3.prefab
+  artifactKey: Guid(9f4b3765e97084e4db65d21d7c23c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall 3.prefab using Guid(9f4b3765e97084e4db65d21d7c23c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa57487fe55f52d211e0257e32ee0ab9') in 0.013460 seconds
+  Import took 0.031068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.333155 seconds.
+  path: Assets/Audio/SFX
+  artifactKey: Guid(805958ba59711824f968e7ffabd6f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX using Guid(805958ba59711824f968e7ffabd6f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a4df9bd89b8839c937b5fe67947146') in 0.006921 seconds
+  Import took 0.017020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Audio/SFX
+  artifactKey: Guid(805958ba59711824f968e7ffabd6f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX using Guid(805958ba59711824f968e7ffabd6f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a4df9bd89b8839c937b5fe67947146') in 0.001829 seconds
+  Import took 0.008170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.753046 seconds.
+  path: Assets/Audio/SFX/Break SFX 1.mp3
+  artifactKey: Guid(0fe5a385e7069294eaf1f4194043b895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Break SFX 1.mp3 using Guid(0fe5a385e7069294eaf1f4194043b895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab8f5c2e8fd85f7fe591dab4f33614e') in 0.089548 seconds
+  Import took 0.103842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Audio/SFX/Break SFX 2.mp3
+  artifactKey: Guid(70eb5e2aea0af404dafd6180539d1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Break SFX 2.mp3 using Guid(70eb5e2aea0af404dafd6180539d1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ddfd2d200521c5b93c79b28554fd3a') in 0.011289 seconds
+  Import took 0.037041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Audio/SFX/Break SFX 3.mp3
+  artifactKey: Guid(764a074065585234081dc22744ae623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/Break SFX 3.mp3 using Guid(764a074065585234081dc22744ae623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286614cf760151421eb7dbaa1c54405a') in 0.011956 seconds
+  Import took 0.018585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.607664 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall.prefab
+  artifactKey: Guid(2dbc9c060df0dc24f9963e6eb65da6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall.prefab using Guid(2dbc9c060df0dc24f9963e6eb65da6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf57fc237d801df54805fbaa8f4657a') in 0.009935 seconds
+  Import took 0.017939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.336470 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall 2.prefab
+  artifactKey: Guid(92ffe8a2778109146b4cb06dfa01b800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall 2.prefab using Guid(92ffe8a2778109146b4cb06dfa01b800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bd72428e0e74c495c6c1c354869627') in 0.015818 seconds
+  Import took 0.023585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.418259 seconds.
+  path: Assets/Prefabs/Purgatory/Walls/Broken Wall 3.prefab
+  artifactKey: Guid(9f4b3765e97084e4db65d21d7c23c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Purgatory/Walls/Broken Wall 3.prefab using Guid(9f4b3765e97084e4db65d21d7c23c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca44c9c05a4f1674917b87c3c64485') in 0.012956 seconds
+  Import took 0.020827 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\Final-main\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\Final-main\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.6 MB.
+System memory in use after: 162.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4208.
+Total: 3.911600 ms (FindLiveObjects: 0.573300 ms CreateObjectMapping: 0.265800 ms MarkObjects: 3.012200 ms  DeleteObjects: 0.058600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
