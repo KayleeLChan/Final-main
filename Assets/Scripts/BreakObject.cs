@@ -8,12 +8,14 @@ public class BreakObject : MonoBehaviour
     public GameObject break2;
     public GameObject break3;
 
+    public string breakerTag;
+
     public float randBreak;
 
-    //When a tool collides with object, generate a random number that spawns in a random broken version of object
+    //When an object with a specific tag collides with object, generate a random number that spawns in a random broken version of object
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Tool")
+        if(collision.gameObject.tag == "" + breakerTag)
         {
             RandomGenerate();
             if(randBreak == 1)
@@ -36,6 +38,6 @@ public class BreakObject : MonoBehaviour
 
     void RandomGenerate()
     {
-        randBreak = Random.Range(1, 3);
+        randBreak = Random.Range(1, 4);
     }
 }
