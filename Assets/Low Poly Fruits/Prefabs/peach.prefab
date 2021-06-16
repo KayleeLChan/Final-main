@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -7538453703532971852}
   - component: {fileID: 5359049661340717408}
   - component: {fileID: 8331796723135076500}
+  - component: {fileID: 6561717692856108785}
   m_Layer: 11
   m_Name: peach
   m_TagString: Untagged
@@ -219,3 +220,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300010, guid: 3f4d2118f6a772542a1635ef5bfa6982, type: 3}
+--- !u!114 &6561717692856108785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541859410316496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de8d080e0db5a84eae230583173013f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  break1: {fileID: 8177825077964030302, guid: 763846555488de542a9cbc5c3dafe771, type: 3}
+  break2: {fileID: 8177825077964030302, guid: 763846555488de542a9cbc5c3dafe771, type: 3}
+  break3: {fileID: 8177825077964030302, guid: 763846555488de542a9cbc5c3dafe771, type: 3}
+  breakerTag: Tools
+  randBreak: 0

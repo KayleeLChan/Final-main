@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1143391367856234164}
   - component: {fileID: 8853257869745975732}
   - component: {fileID: 6982980813238574481}
+  - component: {fileID: 1022029617068748835}
   m_Layer: 11
   m_Name: lemon
   m_TagString: Untagged
@@ -219,3 +220,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 3f4d2118f6a772542a1635ef5bfa6982, type: 3}
+--- !u!114 &1022029617068748835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638444836145330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de8d080e0db5a84eae230583173013f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  break1: {fileID: 1125005334161418314, guid: 2ae08bf8a1f18194d91648fa028f09a3, type: 3}
+  break2: {fileID: 1125005334161418314, guid: 2ae08bf8a1f18194d91648fa028f09a3, type: 3}
+  break3: {fileID: 1125005334161418314, guid: 2ae08bf8a1f18194d91648fa028f09a3, type: 3}
+  breakerTag: Tools
+  randBreak: 0

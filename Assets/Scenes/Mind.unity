@@ -6314,16 +6314,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Teleport: Hold primary button, aim at ground, and tap grip button
 
-
     Grab:
     Reach your palm onto the object and hold grip button
-
 
     Turn: Move thumbsticks
     in turning direction
 
+    Vocalize: Hold down thumbsticks
 
-    Draw (Ocean Feature): Hold trigger button'
+    Draw (Ocean Feature):
+    Hold trigger button'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18eb93125c4dc48309f35bea3f9afe65, type: 2}
   m_sharedMaterial: {fileID: -8672605235374421519, guid: 18eb93125c4dc48309f35bea3f9afe65, type: 2}
