@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 23644498670348300}
   - component: {fileID: 5328143288634951436}
   - component: {fileID: -4309177069433040776}
-  - component: {fileID: 4241617618307357896}
   - component: {fileID: -6801855389206527725}
+  - component: {fileID: 3694165682364972539}
   m_Layer: 11
   m_Name: strawberry
   m_TagString: Untagged
@@ -207,20 +207,6 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
---- !u!64 &4241617618307357896
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1724972533694550}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: 3f4d2118f6a772542a1635ef5bfa6982, type: 3}
 --- !u!114 &-6801855389206527725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,8 +222,22 @@ MonoBehaviour:
   break1: {fileID: 6582548797625539058, guid: 50dfcdc2431e14e46861fb6e20356e66, type: 3}
   break2: {fileID: 6582548797625539058, guid: 50dfcdc2431e14e46861fb6e20356e66, type: 3}
   break3: {fileID: 6582548797625539058, guid: 50dfcdc2431e14e46861fb6e20356e66, type: 3}
-  breakerTag: Tools
+  breakerTag: Tool
   randBreak: 0
+--- !u!64 &3694165682364972539
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724972533694550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 3f4d2118f6a772542a1635ef5bfa6982, type: 3}
 --- !u!1 &4694724061447035033
 GameObject:
   m_ObjectHideFlags: 0

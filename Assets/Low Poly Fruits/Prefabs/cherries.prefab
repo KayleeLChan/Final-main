@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 23272747751323546}
   - component: {fileID: 9046722513447038628}
   - component: {fileID: -7073738814748104716}
-  - component: {fileID: -6608791495211803369}
   - component: {fileID: 4198154306481685102}
+  - component: {fileID: -2085043809007148695}
   m_Layer: 11
   m_Name: cherries
   m_TagString: Untagged
@@ -207,20 +207,6 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
---- !u!64 &-6608791495211803369
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802840387486672}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300012, guid: 3f4d2118f6a772542a1635ef5bfa6982, type: 3}
 --- !u!114 &4198154306481685102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,8 +222,22 @@ MonoBehaviour:
   break1: {fileID: 6792981536131262451, guid: bbcb9ecd4ba06ef41ae14b6741a3a407, type: 3}
   break2: {fileID: 6792981536131262451, guid: bbcb9ecd4ba06ef41ae14b6741a3a407, type: 3}
   break3: {fileID: 6792981536131262451, guid: bbcb9ecd4ba06ef41ae14b6741a3a407, type: 3}
-  breakerTag: Tools
+  breakerTag: Tool
   randBreak: 0
+--- !u!64 &-2085043809007148695
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802840387486672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300012, guid: 3f4d2118f6a772542a1635ef5bfa6982, type: 3}
 --- !u!1 &2043236465731283900
 GameObject:
   m_ObjectHideFlags: 0
